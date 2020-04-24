@@ -12,3 +12,11 @@
 .place__paragraph:last-child {
   padding-bottom: 0;
 }
+
+@media screen and (max-width: 870px) {
+  .place__paragraph {
+    font-size: 1em;
+    line-height: 1.625;
+  }
+}
+

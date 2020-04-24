@@ -12,5 +12,6 @@
   .intro__title {
     font-size: 10.7vmin;
     max-width: 83%;
+    line-height: 1.09;
   }
 }

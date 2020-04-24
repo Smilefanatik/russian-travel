@@ -7,6 +7,12 @@
   font-weight: normal;
   font-style: normal;
   margin-right: 1.125rem;
+  opacity: 1;
+  transition: opacity 0.3s linear;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 700px) {

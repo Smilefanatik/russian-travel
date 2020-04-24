@@ -1,15 +1,18 @@
 .header__lang-link {
+  list-style: none;
   text-decoration: none;
+  margin: 0;
   padding: 0;
-  margin-right: 18px;
   font-size: 24px;
   font-weight: normal;
   line-height: 1.16;
   color: #FFFFFF;
+  opacity: 1;
+  transition: opacity 0.3s linear;
 }
 
-.header__lang-link:last-child {
-  margin-right: 0;
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 425px) {
@@ -18,3 +21,4 @@
     line-height: 1.33;
   }
 }
+
