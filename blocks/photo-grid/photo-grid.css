@@ -11,13 +11,13 @@
 
 }
 
-@media screen and (min-width: 870px) and (max-width: 1110px) {
+@media screen and (max-width: 1110px) {
   .photo-grid {
     grid-gap: 0.875rem;
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 870px) {
+@media screen and (max-width: 870px) {
   .photo-grid {
     margin-top: 5.5rem;
     padding: 0 3.125%;
@@ -29,6 +29,7 @@
   .photo-grid {
     margin-top: 4rem;
     padding: 0 5%;
+    grid-template-columns: 1fr;
     grid-gap: 0.75rem;
   }
 }

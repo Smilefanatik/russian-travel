@@ -23,13 +23,13 @@
   margin-top: 0;
 }
 
-@media screen and (min-width: 870px) and (max-width: 1110px) {
+@media screen and (max-width: 1110px) {
   .place {
     grid-column-gap: 2rem;
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 870px) {
+@media screen and (max-width: 870px) {
   .place {
     margin-top: 9.375%;
   }
@@ -44,7 +44,6 @@
     "title"
     "image"
     "paragraphs";
-    grid-column-gap: 0;
     grid-row-gap: 2rem;
     margin-top: 15%;
   }

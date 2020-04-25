@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 870px) and (max-width: 1110px) {
+@media screen and (max-width: 1110px) {
   .lead__image {
     padding: 0 4.68%;
   }

@@ -4,24 +4,29 @@
 
 .footer {
   margin: 5.75rem auto 0;
-  padding: 0 4.05% 1.5rem;
+  padding-top: 0;
+  padding-right: 4.05%;
+  padding-left: 4.05%;
+  padding-bottom: 1.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-@media screen and (min-width: 425px) and (max-width: 870px) {
+@media screen and (max-width: 870px) {
   .footer {
     margin-top: 5.5rem;
-    padding: 0 3.125% 1.5rem;
+    padding-right: 3.125%;
+    padding-left: 3.125%;
   }
 }
 
 @media screen and (max-width: 700px) {
   .footer {
     margin-top: 4rem;
-    padding: 0 5% 1.5rem;
+    padding-right: 5%;
+    padding-left: 5%;
     flex-direction: column;
     align-items: flex-start;
   }

@@ -1,7 +1,7 @@
 @import url(./__title/intro__title.css);
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
-@import url(./__list/intro__list-element.css);
+@import url(./__list-element/intro__list-element.css);
 @import url(./__span/intro__span.css);
 
 .intro {
@@ -9,13 +9,13 @@
   padding: 0 11.5%;
 }
 
-@media screen and (min-width: 870px) and (max-width: 1110px) {
+@media screen and (max-width: 1110px) {
   .intro {
     padding: 0 4.68%;
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 870px) {
+@media screen and (max-width: 870px) {
   .intro {
     margin-top: 5.5rem;
     padding: 0 3.125%;
